@@ -1,0 +1,5 @@
+<h1>Parties</h1>
+
+<% @parties.each do |party| %>
+  <br><a href="/parties/<%=party["id"]%>"> <%=party["name"]  %></a>
+<% end %>

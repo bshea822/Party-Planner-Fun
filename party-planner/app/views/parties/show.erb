@@ -1,0 +1,7 @@
+<% @parties.each do |party| %>
+  <% if party["id"] === @id %>
+    <br><%= party["name"] %>
+    <br> <%= party["location"] %>
+    <br> <%= party["description"] %>
+  <% end %>
+<% end %>
